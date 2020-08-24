@@ -16,7 +16,7 @@
     - max_temperature_spark.py
     
 * Please run convert_to_parquet.py as following:
-` python3 convert_to_parquet -i (*infolder*) -o (*outfolder*)`
+` python3 convert_to_parquet -i *(infolder)* -o *(outfolder)*`
   This code reads all the csv files in the infolder and writes the files as parquet to outfolder.
 
 * For small number files, we can use python's pandas. Please run:
